@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement, incrementByAmount, decrementByAmount } from '../store/features/counterFeature';
-import { RootState } from '../store/store';
+import { increment, decrement, incrementByAmount, decrementByAmount } from '../../store/features/counterFeature';
+import { RootState } from '../../store/store';
 import { Button } from '@mui/material';
 import cls from './Counter.module.scss'
 
